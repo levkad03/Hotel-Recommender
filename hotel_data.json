@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Hotel Sunshine",
+        "location": "Paris",
+        "price_per_night": 120.0,
+        "star_rating": 4.0,
+        "review_score": 8.7,
+        "description": "Hotel Sunshine is a charming 4-star hotel located in the heart of Paris, just steps away from the Eiffel Tower and the Seine River. Guests can enjoy a complimentary French-style breakfast every morning, free Wi-Fi throughout the property, and friendly multilingual staff ready to assist with local recommendations and bookings."
+    },
+    {
+        "name": "Ocean Breeze Resort",
+        "location": "Malibu",
+        "price_per_night": 250.0,
+        "star_rating": 5.0,
+        "review_score": 9.4,
+        "description": "Nestled along the pristine shores of Malibu, Ocean Breeze Resort offers guests a luxurious escape with panoramic views of the Pacific Ocean. The resort features a full-service spa, private beach access, gourmet dining options, and spacious rooms with floor-to-ceiling windows, making it perfect for romantic getaways and relaxing retreats."
+    },
+    {
+        "name": "Mountain View Inn",
+        "location": "Zermatt",
+        "price_per_night": 180.0,
+        "star_rating": 4.5,
+        "review_score": 9.1,
+        "description": "Located in the picturesque alpine village of Zermatt, Mountain View Inn provides an ideal base for skiing, hiking, and exploring the Swiss Alps. The inn offers cozy wooden interiors, a wellness area with a sauna and hot tub, and balconies with stunning views of the Matterhorn. Complimentary shuttle service to the cable cars is also available."
+    },
+    {
+        "name": "City Central Hotel",
+        "location": "New York",
+        "price_per_night": 140.0,
+        "star_rating": 3.0,
+        "review_score": 7.8,
+        "description": "City Central Hotel is a practical and affordable choice for travelers looking to explore New York City. Conveniently located near Times Square and major subway lines, the hotel offers clean and comfortable rooms, a 24-hour front desk, and a small café serving breakfast and snacks. Ideal for tourists and business travelers alike."
+    },
+    {
+        "name": "Desert Rose Lodge",
+        "location": "Dubai",
+        "price_per_night": 200.0,
+        "star_rating": 5.0,
+        "review_score": 8.9,
+        "description": "Desert Rose Lodge is a luxurious 5-star property in the heart of Dubai, offering guests a perfect blend of elegance and modernity. The hotel boasts a rooftop infinity pool with panoramic skyline views, fine dining restaurants, a wellness spa, and curated desert excursions including camel rides and dune safaris. Perfect for those seeking both adventure and comfort."
+    },
+    {
+        "name": "Lakeside Serenity Hotel",
+        "location": "Lucerne",
+        "price_per_night": 160.0,
+        "star_rating": 4.5,
+        "review_score": 9.2,
+        "description": "Overlooking the serene waters of Lake Lucerne, Lakeside Serenity Hotel offers a peaceful escape in the heart of Switzerland. Guests can enjoy spacious rooms with lake-view balconies, a fine dining restaurant serving Swiss and Mediterranean cuisine, and an on-site wellness center with indoor pool, sauna, and massage services. Ideal for couples and nature lovers seeking tranquility."
+    },
+    {
+        "name": "The Copper Lantern",
+        "location": "Dublin",
+        "price_per_night": 110.0,
+        "star_rating": 3.5,
+        "review_score": 8.1,
+        "description": "The Copper Lantern is a cozy boutique hotel nestled in a quiet corner of historic Dublin. This family-run gem combines Irish hospitality with modern amenities, offering freshly cooked breakfasts, live folk music nights, and easy access to Temple Bar and Trinity College. A perfect stay for travelers wanting an authentic, homey experience."
+    },
+    {
+        "name": "Azure Sky Palace",
+        "location": "Santorini",
+        "price_per_night": 275.0,
+        "star_rating": 5.0,
+        "review_score": 9.6,
+        "description": "Perched atop the cliffs of Oia, Azure Sky Palace provides a breathtaking view of the Aegean Sea and the iconic Santorini sunsets. This luxurious adults-only resort features private infinity pools, all-white Cycladic architecture, romantic candlelit dinners, and personalized concierge services. A premier destination for honeymoons and anniversaries."
+    },
+    {
+        "name": "Maplewood Inn & Suites",
+        "location": "Vancouver",
+        "price_per_night": 135.0,
+        "star_rating": 4.0,
+        "review_score": 8.4,
+        "description": "Maplewood Inn & Suites is a comfortable, eco-friendly hotel located just outside downtown Vancouver. Offering complimentary bike rentals, locally sourced breakfasts, and pet-friendly rooms, it’s an excellent choice for families and adventure seekers alike. The hotel also provides quick access to hiking trails, Stanley Park, and public transport."
+    },
+    {
+        "name": "Golden Lotus Retreat",
+        "location": "Chiang Mai",
+        "price_per_night": 95.0,
+        "star_rating": 4.0,
+        "review_score": 8.9,
+        "description": "Tucked away in a lush garden in Chiang Mai’s Old City, the Golden Lotus Retreat is a peaceful sanctuary designed in traditional Lanna style. Guests can enjoy daily yoga classes, Thai cooking workshops, and quiet evenings in open-air lounges surrounded by lotus ponds. A favorite among spiritual travelers and wellness enthusiasts."
+    },
+    {
+        "name": "The Velvet Orchid",
+        "location": "Tokyo",
+        "price_per_night": 190.0,
+        "star_rating": 4.5,
+        "review_score": 9.0,
+        "description": "The Velvet Orchid is a contemporary hotel located in the upscale district of Shibuya, Tokyo. Combining minimalist Japanese design with luxury finishes, the hotel features smart-room technology, a panoramic rooftop bar, and a curated sushi tasting experience by a Michelin-starred chef. Perfect for modern travelers who appreciate tech and tradition."
+    },
+    {
+        "name": "Casa del Mar",
+        "location": "Barcelona",
+        "price_per_night": 145.0,
+        "star_rating": 4.0,
+        "review_score": 8.5,
+        "description": "Just minutes from Barceloneta Beach, Casa del Mar offers Mediterranean charm and stylish comfort. This seaside hotel features breezy balconies, a rooftop pool overlooking the sea, and tapas served daily in a vibrant courtyard. Guests can walk to the Gothic Quarter or relax with sangria in the sun."
+    },
+    {
+        "name": "The Jade Pavilion",
+        "location": "Bangkok",
+        "price_per_night": 88.0,
+        "star_rating": 4.0,
+        "review_score": 8.8,
+        "description": "Tucked in the heart of Bangkok's old town, The Jade Pavilion blends historic Thai architecture with modern boutique luxury. The hotel offers spa treatments, a tranquil inner garden with koi ponds, and cultural excursions to nearby temples and markets. A hidden gem for peaceful yet immersive travel."
+    },
+    {
+        "name": "Snowpine Peak Hotel",
+        "location": "Aspen",
+        "price_per_night": 210.0,
+        "star_rating": 5.0,
+        "review_score": 9.3,
+        "description": "Snowpine Peak Hotel is a high-end ski-in/ski-out lodge in the snowy mountains of Aspen. Guests enjoy wood-fired hot tubs, alpine fine dining, and complimentary ski valet service. With rustic charm, luxurious spa facilities, and cozy fireplaces in every suite, it's a haven for winter adventurers."
+    },
+    {
+        "name": "Palm Grove Hideaway",
+        "location": "Bali",
+        "price_per_night": 130.0,
+        "star_rating": 4.5,
+        "review_score": 9.1,
+        "description": "Surrounded by tropical palms and rice terraces, Palm Grove Hideaway is an eco-luxury retreat in Ubud, Bali. Featuring open-air villas, organic garden-to-table cuisine, and sunrise yoga by the river, the resort offers a perfect balance of relaxation and nature. Ideal for solo travelers and couples on a wellness journey."
+    },
+    {
+        "name": "The Monarch's Court",
+        "location": "London",
+        "price_per_night": 230.0,
+        "star_rating": 5.0,
+        "review_score": 9.5,
+        "description": "Located in the prestigious Mayfair district, The Monarch's Court is a regal 5-star hotel that offers classic British elegance with a modern touch. Guests are treated to afternoon tea in the grand atrium, private chauffeurs in Rolls-Royce vehicles, and rooms adorned with antique furniture and marble bathrooms. A quintessentially royal experience in the heart of London."
+    },
+    {
+        "name": "Cedar Hollow Lodge",
+        "location": "Denver",
+        "price_per_night": 125.0,
+        "star_rating": 3.5,
+        "review_score": 8.3,
+        "description": "Cedar Hollow Lodge is a rustic retreat nestled near the foothills of the Rockies. Known for its log-cabin aesthetic, roaring fireplaces, and hearty breakfasts, this lodge is popular with outdoor enthusiasts and families. Hiking trails, fly fishing spots, and ski slopes are just minutes away, making it a four-season favorite."
+    },
+    {
+        "name": "La Rosa Blanca",
+        "location": "Buenos Aires",
+        "price_per_night": 105.0,
+        "star_rating": 4.0,
+        "review_score": 8.7,
+        "description": "La Rosa Blanca is a romantic boutique hotel situated in the Palermo Soho neighborhood. Each room is individually decorated with local artwork and handcrafted furniture. Guests can enjoy tango shows, rooftop dinners under the stars, and wine tastings featuring the best of Argentine Malbec. An intimate, artistic escape in the heart of the city."
+    },
+    {
+        "name": "Aurora Fjord Hotel",
+        "location": "Tromsø",
+        "price_per_night": 195.0,
+        "star_rating": 4.5,
+        "review_score": 9.4,
+        "description": "Positioned on the edge of a glacial fjord, Aurora Fjord Hotel offers front-row seats to the Northern Lights. Each room features panoramic windows, heated floors, and cozy Nordic design. Activities include reindeer sledding, aurora photography tours, and spa sessions with views of the Arctic wilderness. A magical stay for adventurers and stargazers."
+    },
+    {
+        "name": "Saffron Dunes Resort",
+        "location": "Marrakech",
+        "price_per_night": 150.0,
+        "star_rating": 4.0,
+        "review_score": 8.9,
+        "description": "Set within a traditional Moroccan riad surrounded by orange groves, Saffron Dunes Resort is a serene oasis outside the bustle of Marrakech. Guests can relax in the hammam, sip mint tea on mosaic-tiled terraces, and sleep in richly decorated rooms with handwoven textiles and carved wooden doors. A perfect blend of culture, comfort, and quiet."
+    },
+    {
+        "name": "Crimson Bay Hotel",
+        "location": "Cape Town",
+        "price_per_night": 165.0,
+        "star_rating": 4.5,
+        "review_score": 9.0,
+        "description": "Crimson Bay Hotel is a stylish oceanfront property located near Cape Town’s iconic Camps Bay beach. With elegant coastal décor, open-air lounges, and sunset dining by the shore, the hotel offers a luxurious yet laid-back experience. Guests can explore nearby hiking trails, enjoy fresh seafood at the in-house bistro, and relax in sea-view spa suites after a day of adventure."
+    },
+    {
+        "name": "The Brass Lantern Inn",
+        "location": "Savannah",
+        "price_per_night": 98.0,
+        "star_rating": 3.5,
+        "review_score": 8.4,
+        "description": "The Brass Lantern Inn is a charming historic bed-and-breakfast tucked into a quiet square in old Savannah. Each room features antique furnishings, gas fireplaces, and Southern-style comfort. Mornings begin with homemade biscuits and sweet tea, while evenings invite guests to porch swings under Spanish moss and gaslight. A storybook retreat for romantics and history lovers."
+    },
+    {
+        "name": "Silver Horizon Suites",
+        "location": "Seoul",
+        "price_per_night": 155.0,
+        "star_rating": 4.0,
+        "review_score": 8.8,
+        "description": "Silver Horizon Suites blends contemporary design with Korean tradition in the bustling heart of Seoul. The hotel offers spacious smart rooms, a Korean-Japanese fusion restaurant, and a rooftop lounge with panoramic views of the city skyline. With its close proximity to shopping in Myeongdong and palaces in Jongno, it's perfect for both culture seekers and modern explorers."
+    },
+    {
+        "name": "Whispering Pines Chalet",
+        "location": "Innsbruck",
+        "price_per_night": 175.0,
+        "star_rating": 4.5,
+        "review_score": 9.2,
+        "description": "Whispering Pines Chalet is a tranquil alpine retreat nestled in the Austrian Tyrol. With wood-beamed ceilings, private saunas, and breathtaking views of snowcapped peaks, this chalet-style hotel is a favorite among skiers and nature lovers. Guests can sip mulled wine by the fireplace, enjoy hearty Austrian cuisine, and ski out directly from the lodge."
+    },
+    {
+        "name": "The Indigo Nomad",
+        "location": "Marrakesh",
+        "price_per_night": 140.0,
+        "star_rating": 4.0,
+        "review_score": 8.6,
+        "description": "The Indigo Nomad is a bohemian-inspired boutique hotel nestled in the heart of Marrakesh’s Medina. Featuring handcrafted Berber rugs, lantern-lit courtyards, and a rooftop terrace overlooking the Koutoubia Mosque, it immerses guests in the vibrant culture of Morocco. After a day in the souks, relax with mint tea and traditional tagine beneath desert stars."
+    },
+    {
+        "name": "Celestial Haven Hotel",
+        "location": "Reykjavík",
+        "price_per_night": 185.0,
+        "star_rating": 4.5,
+        "review_score": 9.3,
+        "description": "Celestial Haven Hotel offers a modern Nordic escape just outside Reykjavík’s city center. With geothermal hot tubs under the open sky, glass-ceiling suites for Northern Lights viewing, and eco-conscious architecture, this hotel blends comfort with Icelandic wilderness. Ideal for travelers seeking serenity and natural wonder in one place."
+    },
+    {
+        "name": "Amber Vines Estate",
+        "location": "Tuscany",
+        "price_per_night": 210.0,
+        "star_rating": 5.0,
+        "review_score": 9.5,
+        "description": "Amber Vines Estate is a luxurious vineyard retreat nestled in the rolling hills of Tuscany. Guests can tour the estate’s own winery, participate in olive oil tastings, and relax in rustic-chic villas with vineyard views. With farm-to-table dining and countryside tranquility, it’s a romantic gateway to Italy’s heartland."
+    },
+    {
+        "name": "The Obsidian Spire",
+        "location": "Dubai",
+        "price_per_night": 280.0,
+        "star_rating": 5.0,
+        "review_score": 9.0,
+        "description": "The Obsidian Spire is a futuristic luxury hotel rising above the Dubai skyline. Featuring sky lounges, automated butler service, and floor-to-ceiling smart glass windows, the hotel offers next-level comfort and tech. Guests can enjoy a skybridge infinity pool and exclusive access to private shopping and desert tours."
+    },
+    {
+        "name": "Harborlight Inn",
+        "location": "Maine",
+        "price_per_night": 120.0,
+        "star_rating": 4.0,
+        "review_score": 8.6,
+        "description": "Perched along the rugged Maine coastline, Harborlight Inn is a nautical-themed hotel with vintage charm. Guests can enjoy cozy rooms with sea views, hearty seafood breakfasts, and lighthouse tours. With its salty breeze, crackling fireplaces, and quaint harbor village nearby, it’s a quiet retreat for nature lovers and writers alike."
+    },
+    {
+        "name": "Lotus Whisper Resort",
+        "location": "Hoi An",
+        "price_per_night": 95.0,
+        "star_rating": 4.0,
+        "review_score": 8.9,
+        "description": "Tucked along a peaceful riverbank in Hoi An, Lotus Whisper Resort is a tranquil Vietnamese hideaway with floating gardens and lantern-lit pathways. Guests can enjoy traditional cooking classes, bamboo spa treatments, and boat rides to the UNESCO-listed Ancient Town. A serene and cultural haven for mindful travelers."
+    }
+]
