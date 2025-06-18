@@ -1,17 +1,15 @@
 import os
 
 from dotenv import load_dotenv
-from langchain.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores.pgvector import PGVector
-from langchain_core.documents import Document
 from sqlalchemy.orm import sessionmaker
 
 from db_setup import Hotel, engine
+from mini_lm_embeddings import MiniLMEmbeddings
 
 load_dotenv()
-# TODO: replace with free model
+
 # Create embeddings instance
-embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+embeddings = MiniLMEmbeddings()
 
 # Example hotel data
 hotel_data = {

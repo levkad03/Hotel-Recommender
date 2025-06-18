@@ -33,7 +33,7 @@ class Hotel(Base):
     star_rating = Column(Float, nullable=False)
     review_score = Column(Float, nullable=False)
     description = Column(Text, nullable=False)
-    # Do NOT define description_embedding here if you're manually adding it below
+    description_embedding = Column(Vector(384))
 
 
 # Create extension + table + add vector column if missing
@@ -59,13 +59,21 @@ def setup_database():
             conn.execute(
                 text("""
                 ALTER TABLE hotels
-                ADD COLUMN description_embedding vector(768);
+                ADD COLUMN description_embedding vector(384);
             """)
             )
         else:
             print("[INFO] 'description_embedding' column already exists.")
 
         conn.commit()
+
+
+def reset_hotels_table():
+    with engine.connect() as conn:
+        # Drop the hotels table if it exists
+        conn.execute(text("DROP TABLE IF EXISTS hotels CASCADE;"))
+        conn.commit()
+        print("[INFO] Dropped existing 'hotels' table.")
 
 
 # Initialize DB
