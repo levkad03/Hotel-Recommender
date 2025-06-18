@@ -1,10 +1,9 @@
 import json
 
-from dotenv import load_dotenv
-from sqlalchemy.orm import sessionmaker
-
 from db_setup import Hotel, engine
+from dotenv import load_dotenv
 from mini_lm_embeddings import MiniLMEmbeddings
+from sqlalchemy.orm import sessionmaker
 
 load_dotenv()
 
@@ -12,7 +11,7 @@ load_dotenv()
 embeddings = MiniLMEmbeddings()
 
 # Example hotel data
-with open("hotel_data.json", "r", encoding="utf-8") as f:
+with open("data/hotel_data.json", "r", encoding="utf-8") as f:
     hotels = json.load(f)
 
 Session = sessionmaker(bind=engine)
