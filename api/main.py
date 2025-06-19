@@ -1,11 +1,10 @@
 import os
 from typing import List
 
-import uvicorn
 from fastapi import FastAPI
 from langchain_postgres import PGVector
 
-from data.mini_lm_embeddings import MiniLMEmbeddings
+from models.mini_lm_embeddings import MiniLMEmbeddings
 from schemas.hotel_recommendation import HotelRecommendation
 from schemas.recommendation_request import RecommendationRequest
 
@@ -40,7 +39,3 @@ def recommend_hotels(request: RecommendationRequest):
         )
 
     return recommendations
-
-
-if __name__ == "__main__":
-    uvicorn.run(app, port=8000)
