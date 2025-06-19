@@ -13,14 +13,11 @@ vectorestore = PGVector(
     collection_name="hotels",
 )
 
-user_query = "I want a nice hotel in New York"
+user_query = "I want to visit Africa and I want a luxurious place to stay"
 
-# TODO: Does not work, need to remake it
 results = vectorestore.similarity_search(user_query, k=3)
-print(results)
 
 print("\nTop hotel recommendations:")
 for doc in results:
-    print(doc)
     meta = doc.metadata
     print(f"- {meta['name']} ({meta['location']}): {doc.page_content}")
