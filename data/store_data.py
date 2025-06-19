@@ -3,9 +3,6 @@ import os
 
 from dotenv import load_dotenv
 from langchain_postgres import PGVector
-from sqlalchemy.orm import sessionmaker
-
-from models.hotel import Hotel
 
 from .db_setup import engine
 from .mini_lm_embeddings import MiniLMEmbeddings
