@@ -13,7 +13,7 @@ vectorestore = PGVector(
     collection_name="hotels",
 )
 
-user_query = "I want to visit Africa and I want a luxurious place to stay"
+user_query = "I want to stay at hotel with a swimming pool"
 
 results = vectorestore.similarity_search(user_query, k=3)
 
