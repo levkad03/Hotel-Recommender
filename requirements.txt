@@ -1,0 +1,12 @@
+fastapi
+langchain
+openai
+pgvector
+psycopg2-binary
+psycopg[binary]
+pydantic
+python-dotenv
+sentence-transformers
+sqlalchemy
+tiktoken
+uvicorn
