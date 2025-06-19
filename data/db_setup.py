@@ -1,17 +1,13 @@
 import os
 
 from dotenv import load_dotenv
-from pgvector.sqlalchemy import Vector
 from sqlalchemy import (
-    Column,
-    Float,
-    Integer,
-    String,
-    Text,
     create_engine,
     text,
 )
-from sqlalchemy.orm import declarative_base, sessionmaker
+from sqlalchemy.orm import sessionmaker
+
+from models.base import Base
 
 # Load environment variables
 load_dotenv()
@@ -19,21 +15,6 @@ load_dotenv()
 # Setup SQLAlchemy
 DATABASE_URL = os.getenv("DATABASE_URL")
 engine = create_engine(DATABASE_URL, echo=True)  # echo=True logs SQL queries
-Base = declarative_base()
-
-
-# Define the hotels table
-class Hotel(Base):
-    __tablename__ = "hotels"
-
-    id = Column(Integer, primary_key=True)
-    name = Column(String(255), nullable=False)
-    location = Column(String(255), nullable=False)
-    price_per_night = Column(Float, nullable=False)
-    star_rating = Column(Float, nullable=False)
-    review_score = Column(Float, nullable=False)
-    description = Column(Text, nullable=False)
-    description_embedding = Column(Vector(384))
 
 
 # Create extension + table + add vector column if missing

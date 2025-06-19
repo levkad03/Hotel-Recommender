@@ -1,9 +1,12 @@
 import json
 
-from db_setup import Hotel, engine
 from dotenv import load_dotenv
-from mini_lm_embeddings import MiniLMEmbeddings
 from sqlalchemy.orm import sessionmaker
+
+from models.hotel import Hotel
+
+from .db_setup import engine
+from .mini_lm_embeddings import MiniLMEmbeddings
 
 load_dotenv()
 
