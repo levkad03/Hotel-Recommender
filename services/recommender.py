@@ -63,7 +63,6 @@ def recommend_hotels_llm(query: str, k: int = 3):
         "response with recommendations."
     )
     response = llm_with_tools.invoke(prompt)
-    print(response)
     if hasattr(response, "tool_calls") and response.tool_calls:
         tool_results = []
         for tool_call in response.tool_calls:
