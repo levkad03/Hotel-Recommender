@@ -1,5 +1,8 @@
 fastapi
+groq
 langchain
+langchain-groq
+langchain-postgres
 openai
 pgvector
 psycopg2-binary
