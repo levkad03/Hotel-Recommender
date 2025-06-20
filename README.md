@@ -6,13 +6,14 @@ This repository contains code and API for hotel recommendation system
 
 - python
 - langchain
+- Groq
 - docker-compose
 - postgresql
 - pgvector
 - fastapi
 - sentence transformers
 
-The recommendation is given with user's query and data in the database (via **similarity search**)
+The recommendation is given with user's query and data in the database using **similarity search** and **LLM**
 
 ## How to run
 
