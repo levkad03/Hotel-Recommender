@@ -59,9 +59,11 @@ def recommend_hotels_llm(query: str, k: int = 3):
         "You are a hotel recommendation assistant. "
         f'Help the user find hotels based on their query: "{query}"\n'
         "Use the search_hotels tool to find relevant hotels and provide a helpful "
+        f"Always call the search_hotels tool with k={k}."
         "response with recommendations."
     )
     response = llm_with_tools.invoke(prompt)
+    print(response)
     if hasattr(response, "tool_calls") and response.tool_calls:
         tool_results = []
         for tool_call in response.tool_calls:
